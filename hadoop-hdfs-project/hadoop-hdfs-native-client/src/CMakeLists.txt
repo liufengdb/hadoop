@@ -67,6 +67,7 @@ endif()
 include(HadoopJNI)
 
 add_subdirectory(main/native/libhdfs)
+add_subdirectory(main/native/libhdfspp)
 
 if(REQUIRE_LIBWEBHDFS)
     add_subdirectory(contrib/libwebhdfs)
